@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "/home/daniel"
+author: "Daniel Furtado"
+email: daniel@dfurtado.com
+description: "Brazilian punkrocker into software development. I like talking about C#, JavaScript, NodeJS, Python, Linux and games."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: the8bitcoder
+github_username:  dfurtado
+profile_pic: "/assets/image/daniel.jpg"
+permalink: /posts/:title
+
+# Build settings
+markdown: kramdown
