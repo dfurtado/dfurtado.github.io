@@ -42,6 +42,15 @@ With that said I'm planning to write a serie of 4 posts:
 * part 3 - Nerd tree.
 * part 4 - Tmux
 
+By the end of the post serie you should have a vim with a configuration similar to this:
+
+![vim](/assets/image/20160102/vim.png)
+
+I have a terminal splited into 3 panels. On the top I have my vim, on the bottom left I have a terminal
+running a gulp task so I can see the output soon as I save changes in my sass files and lastly I have on the bottom right site
+a terminal that I use when I need to run some commands and so on. Everything on a single terminal and I don't need to switch between
+terminals or tabs.
+
 Let's get started!
 
 ### First things first
