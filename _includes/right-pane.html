@@ -1,11 +1,11 @@
-<div class="right-pane-container">    
-    
+<div class="right-pane-container">
+
     <img class="profile-pic img-circle" src="/assets/image/daniel.jpg"></img>
-    
+
     <p class="author">{{site.author}}</p>
-    
+
     <p class="site-description">{{site.description}} <!--<a href="/about/">[ More about me ] --></a></p>
-    
+
     <div class="social">
         {% include icon-github.html %}
         {% include icon-twitter.html %}
@@ -13,15 +13,15 @@
         {% include icon-rss.html %}
         {% include icon-steam.html %}
     </div>
-    
+
     <div class="latest-posts">
         <p class="title">Latest posts</p>
         <hr/>
         {% for post in site.posts offset:5 limit:5 %}
-            <a href="{{post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <p><a href="{{post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
         {% endfor %}
     </div>
-        
+
     <div class="archive">
         <p class="title">Archives</p>
         <hr/>
@@ -29,5 +29,5 @@
             Looking for older posts? Click <a href="/archive/">here</a>
         <p>
     </div>
-    
+
 </div>
