@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using vim for development and how to make it awesome - part 2"
-date:  2016-01-03 01:19:00 +0100
+date:  2016-01-16 01:19:00 +0100
 categories: development
 description: "Second part of my tutorial about how to make your vim looks awesome!"
 ---
