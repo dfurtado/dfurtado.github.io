@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
@@ -52,6 +52,129 @@ body {
     text-align: justify;
 }
 
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+     .picture {
+        width: 250px;
+        height: 250px;
+     }
+
+     .item.footer {
+         min-width: 850px;
+         max-width: 850px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+
+     .item.headline {
+         max-width: 850px;
+     }
+
+     .item.bio {
+        max-width: 900px;
+     }
+
+    .item a.icon {
+        margin: 10px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .container {
+        margin-bottom: 50px;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+     .picture {
+        width: 250px;
+        height: 250px;
+     }
+
+     .item.footer {
+         width: 850px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+
+     .item.headline {
+         max-width: 850px;
+     }
+
+     .item.bio {
+        max-width: 900px;
+     }
+
+    .item a.icon {
+        margin: 10px;
+        width: 90px;
+        height: 90px;
+    }
+
+    item.connect-box {
+        max-width: 450px;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .container {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .container {
+        margin-bottom: 50px;
+    }
+
+}
+
+
 .github {
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="#000" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>');
 }
@@ -65,7 +188,7 @@ body {
 }
 
 .rss {
-    background: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25.4,74.569c2.18,2.177,3.506,5.131,3.514,8.42c-0.008,3.283-1.334,6.237-3.506,8.406L25.4,91.399 c-2.176,2.166-5.148,3.49-8.453,3.49c-3.301,0-6.266-1.328-8.441-3.494C6.336,89.227,5,86.276,5,82.989 c0-3.289,1.336-6.25,3.506-8.423v0.003c2.176-2.168,5.141-3.502,8.441-3.502C20.252,71.067,23.221,72.404,25.4,74.569z M25.4,74.566 v0.003c0.004,0,0.004,0,0.004,0L25.4,74.566z M8.506,91.399c0,0,0,0,0-0.004c-0.004,0-0.004,0-0.004,0L8.506,91.399z M5.01,35.604 v17.185c11.219,0.007,21.83,4.414,29.771,12.367c7.939,7.928,12.328,18.555,12.346,29.813h0.006V95h17.256 c-0.014-16.37-6.668-31.198-17.426-41.964C36.203,42.272,21.381,35.614,5.01,35.604z M5.041,5v17.177 C45.145,22.206,77.746,54.858,77.773,95H95c-0.012-24.81-10.096-47.288-26.393-63.596C52.305,15.101,29.842,5.011,5.041,5z"></path> </svg>') 
+    background: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M25.4,74.569c2.18,2.177,3.506,5.131,3.514,8.42c-0.008,3.283-1.334,6.237-3.506,8.406L25.4,91.399 c-2.176,2.166-5.148,3.49-8.453,3.49c-3.301,0-6.266-1.328-8.441-3.494C6.336,89.227,5,86.276,5,82.989 c0-3.289,1.336-6.25,3.506-8.423v0.003c2.176-2.168,5.141-3.502,8.441-3.502C20.252,71.067,23.221,72.404,25.4,74.569z M25.4,74.566 v0.003c0.004,0,0.004,0,0.004,0L25.4,74.566z M8.506,91.399c0,0,0,0,0-0.004c-0.004,0-0.004,0-0.004,0L8.506,91.399z M5.01,35.604 v17.185c11.219,0.007,21.83,4.414,29.771,12.367c7.939,7.928,12.328,18.555,12.346,29.813h0.006V95h17.256 c-0.014-16.37-6.668-31.198-17.426-41.964C36.203,42.272,21.381,35.614,5.01,35.604z M5.041,5v17.177 C45.145,22.206,77.746,54.858,77.773,95H95c-0.012-24.81-10.096-47.288-26.393-63.596C52.305,15.101,29.842,5.011,5.041,5z"></path> </svg>')
 }
 
 .steam {
